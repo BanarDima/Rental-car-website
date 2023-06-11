@@ -119,6 +119,17 @@ html {
     color: #000000;
 }
 
+.blackk {
+    position: absolute;
+    width: 143px;
+    height: 55px;
+    left: 100px;
+    top: 0px;
+    
+    background: black;
+    border-radius: 15px;
+}
+
 .signupbutton {
     position: absolute;
     width: 143px;
@@ -159,6 +170,34 @@ html {
 }
 
 .signin {
+    position: absolute;
+    width: 112px;
+    height: 35px;
+    left: 8px;
+    top: 10px;
+    
+    text-decoration: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+}
+
+.signoutbutton {
+    position: absolute;
+    width: 143px;
+    height: 55px;
+    left: 1250px;
+    top: 27px;
+    
+    background: #120083;
+    border-radius: 15px;
+}
+
+.signout {
     position: absolute;
     width: 112px;
     height: 35px;

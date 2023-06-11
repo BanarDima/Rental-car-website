@@ -10,6 +10,11 @@
 </head>
 <body>
 
+<?php
+session_start();
+
+?>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
 
     <!--<script>
@@ -27,14 +32,29 @@
         <a href="#conditions" class="ubutton">Умови оренди</a>
         <a href="#aboutus" class="prbutton">Про нас</a>
 
-        <div class="signupbutton">
-        <a href="/user/form/registration.php" class="signup">Реєстрація</a>
-        </div>
+        <?php
+if (isset($_SESSION['user'])) {
+    echo $_SESSION['user'];
+    echo '<div class="signinbutton">
+    <a href="../user/form/logout.php" class="signout">Вийти</a>
+    </div>';
+ 
+}
+else{
+    echo '<div class="signupbutton">
+    <a href="../user/form/registration.php" class="signup">Реєстрація</a>
+    </div>';
+    echo '<div class="signinbutton">
+    <a href="../user/form/login.php" class="signup">Авторизація</a>
+    </div>';
 
-        <div class="signinbutton">
-            <a href="Techo.html" class="signin ">Авторизація</a>
-            </div>
+}
+?>
+
+
+
     </div> 
+
 <main class="container">
         <section id="header">
     <div class="header">
@@ -536,6 +556,7 @@
     <a href="https://www.instagram.com/"><img src="image/main/instagram-logo-50 (1).png" class="footerinstagramicon"></a>
     <a href="https://twitter.com"><img src="image/main/twitter-logo-50 (1).png" class="footertwittericon"></a>
 </footer>
+
 
 
 

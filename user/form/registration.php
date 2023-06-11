@@ -44,7 +44,7 @@
 </div>
 
 <div class="mb-3">
-<button class="w-100 bg-danger fs-4 text-warning">Already account</button>
+<button class="w-100 bg-danger fs-4 text-warning"><a href="login.php" class="text-decoration-none text-white">Already account</a></button>
 </div>
 </form>
 

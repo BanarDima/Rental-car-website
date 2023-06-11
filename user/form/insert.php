@@ -51,7 +51,7 @@ else {
 echo"
 <script>
 alert('Register successfully');
-window.location.href= 'registration.php'
+window.location.href= 'login.php'
 </script>
 ";
 }
