@@ -119,17 +119,6 @@ html {
     color: #000000;
 }
 
-.blackk {
-    position: absolute;
-    width: 143px;
-    height: 55px;
-    left: 100px;
-    top: 0px;
-    
-    background: black;
-    border-radius: 15px;
-}
-
 .signupbutton {
     position: absolute;
     width: 143px;
@@ -145,7 +134,7 @@ html {
     position: absolute;
     width: 112px;
     height: 35px;
-    left: 15px;
+    left: 14px;
     top: 10px;
     
     text-decoration: none;
@@ -171,9 +160,9 @@ html {
 
 .signin {
     position: absolute;
-    width: 112px;
+    width: 130px;
     height: 35px;
-    left: 8px;
+    left: 7px;
     top: 10px;
     
     text-decoration: none;
@@ -201,7 +190,7 @@ html {
     position: absolute;
     width: 112px;
     height: 35px;
-    left: 8px;
+    left: 14px;
     top: 10px;
     
     text-decoration: none;

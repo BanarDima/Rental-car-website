@@ -5,7 +5,7 @@ $Name = $_POST['name'];
 $Password = $_POST['password'];
 
 $Con = mysqli_connect('localhost','root','','ecommerce');
-$result = mysqli_query($Con, "SELECT * FROM `tbluser` WHERE (UserName = '$Name' OR Email = '$Name') AND Password = '$Password' ");
+$result = mysqli_query($Con, "SELECT * FROM `tbluser` WHERE (BINARY UserName = '$Name' OR BINARY Email = '$Name') AND BINARY Password = '$Password' ");
 
 session_start();
 
@@ -15,7 +15,7 @@ if(mysqli_num_rows($result)){
 
     echo"
     <script>
-    alert('Successfully Login');
+    alert('Успішна авторизація');
     window.location.href= '../../Main/Main.php'
     </script>
     ";
@@ -24,7 +24,7 @@ if(mysqli_num_rows($result)){
 else {
     echo"
     <script>
-    alert('incorrect username/email/password');
+    alert('Неправильно введені дані. Перевірьте дані та повторіть спробу');
     window.location.href= 'login.php'
     </script>
     "; 

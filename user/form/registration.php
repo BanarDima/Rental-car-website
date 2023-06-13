@@ -12,46 +12,37 @@
 <body>
 
 <div class="container">
-<div class="row">
-<div class="col-md-6 mt-5 m-auto bg-white shadow font-monospace border border-info">
-
-<p class="text-warning text-center fs-3 fw-bold my-3"> User Register</p>
-
-<form action="insert.php" method="POST">
-
-<div class="mb-3">
-<label for="">UserName:</label>
-<input type="text" name="name" placeholder="Enter User Name" class="form-control">
+    <div class="row">
+        <div class="col-md-6 mt-5 m-auto bg-white shadow font-monospace border border-info">
+            <p class="text-warning text-center fs-3 fw-bold my-3">User Register</p>
+            <form method="POST" action="insert.php">
+                <div class="mb-3">
+                    <label for="name">Ім'я користувача:</label>
+                    <input type="text" name="name" id="name" placeholder="Введіть ім'я користувача" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" name="email" placeholder="Введіть свою електронну пошту" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="number">Телефонний номер:</label>
+                    <input type="text" name="number" placeholder="Введіть свій номер телефону" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="password">Пароль:</label>
+                    <input type="password" name="password" placeholder="Введіть пароль" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <button type="submit" name="submit" class="w-100 bg-warning fs-4 text-white">Register</button>
+                </div>
+                <div class="mb-3">
+                    <button class="w-100 bg-danger fs-4 text-warning"><a href="login.php" class="text-decoration-none text-white">Already have an account</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 
-<div class="mb-3">
-<label for="">UserEmail:</label>
-<input type="email" name="email" placeholder="Enter User Email" class="form-control">
-</div>
-
-<div class="mb-3">
-<label for="">UserNumber:</label>
-<input type="number" name="number" placeholder="Enter User Number" class="form-control">
-</div>
-
-<div class="mb-3">
-<label for="">UserPassword:</label>
-<input type="password" name="password" placeholder="Enter User Password" class="form-control">
-</div>
-
-<div class="mb-3">
-<button name="submit" class="w-100 bg-warning fs-4 text-white">Register</button>
-</div>
-
-<div class="mb-3">
-<button class="w-100 bg-danger fs-4 text-warning"><a href="login.php" class="text-decoration-none text-white">Already account</a></button>
-</div>
-</form>
-
-
-</div>
-</div>
-</div>
     
 <?php
 

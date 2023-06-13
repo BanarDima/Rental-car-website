@@ -25,7 +25,7 @@ session_start();
     </script>-->
 
     <div class="wrapper">
-        <img src="image/main/Beru__3_-removebg-preview 1.png" class="icon">
+        <img src="../main/image/Beru__3_-removebg-preview 1.png" class="icon">
         <a href="#header" class="gbutton">Головна</a>
         <a href="#rental" class="pobutton">Поїздка</a>
         <a href="#park" class="abutton">Автопарк</a>
@@ -45,7 +45,7 @@ else{
     <a href="../user/form/registration.php" class="signup">Реєстрація</a>
     </div>';
     echo '<div class="signinbutton">
-    <a href="../user/form/login.php" class="signup">Авторизація</a>
+    <a href="../user/form/login.php" class="signin">Авторизація</a>
     </div>';
 
 }
@@ -59,12 +59,12 @@ else{
         <section id="header">
     <div class="header">
         <div class="htext">
-            <p class="htext1">Потрібне <font color="#120083">авто?Орендуй</font> його</p>
+            <p class="htext1">Потрібне <span style="color: #120083;">авто?Орендуй</span> його</p>
             <p class="htext2"><b>Beru</b> - ви нам гроші, ми вам транспорт</p>
-            <img src="image/main/downvote-solid-49 1.png" class="downvote">
+            <img src="../main/image/downvote-solid-49 1.png" class="downvote">
         </div>
         <div class="bluerec">
-            <img src="image/main/jakob-rosen-ojy_mzQ1q6c-unsplash_(2)-transformed 1.png" class="subaru">
+            <img src="../main/image/jakob-rosen-ojy_mzQ1q6c-unsplash_(2)-transformed 1.png" class="subaru">
         </div>
     </div>
     </section>
@@ -74,16 +74,16 @@ else{
     
         <div class="conditionsone">
             <div class="bluerect">
-                <img src="image/main/select-multiple-regular-60.png" class="miniicon">
-                <img src="image/main/right-arrow-alt-regular-60.png" class="rightarrow">
+                <img src="../main/image/select-multiple-regular-60.png" class="miniicon">
+                <img src="../main/image/right-arrow-alt-regular-60.png" class="rightarrow">
                 <p class="contionstextone">Виберіть потрібний ТЗ з автопарку, який розташований нижче</p>
             </div>
         </div>
 
         <div class="conditionstwo">
             <div class="bluerect">
-                <img src="image/main/location-plus-regular-60.png" class="miniicon">
-                <img src="image/main/right-arrow-alt-regular-60.png" class="rightarrow">
+                <img src="../main/image/location-plus-regular-60.png" class="miniicon">
+                <img src="../main/image/right-arrow-alt-regular-60.png" class="rightarrow">
                 <p class="contionstextone">Розгляньте інформацію авто, якщо все влаштовує то клацніть “Замовити”  </p>
             </div>
     
@@ -91,7 +91,7 @@ else{
 
         <div class="conditionsthree">
             <div class="bluerect">
-                <img src="image/main/send-regular-60.png" class="miniicon">
+                <img src="../main/image/send-regular-60.png" class="miniicon">
                 <p class="contionstextone">Заповніть форму та очікуйте дзвінок операторів в роб. час</p>
             </div>
     
@@ -104,41 +104,41 @@ else{
     <div class="park">
         <div class="autorectangleblue">
             <p class="autorectanglebluetext">Автопарк</p>
-            <img src="image/main/down-arrow-circle-solid-60.png" class="autorectanglebluearrow">
+            <img src="../main/image/down-arrow-circle-solid-60.png" class="autorectanglebluearrow">
         </div>
 
         <a href=""><div class="car1">
-            <img src="image/main//DSC_0283-825x510 1.png" class="carimage">
+            <img src="../main/image//DSC_0283-825x510 1.png" class="carimage">
             <p class="carbrand">Renault Logan 1.0 - 1.2 МКПП</p>
             <div class="carcharacteristics">
 
                 <div class="carcharacteristics1">
-                    <img src="image/main/engine 1.png" class="caricon1">
+                    <img src="../main/image/engine 1.png" class="caricon1">
                     <p class="caricontext">1.2 л</p>
                 </div>
 
                 <div class="carcharacteristics2">
-                    <img src="image/main/passenger 1.png" class="caricon2">
+                    <img src="../main/image/passenger 1.png" class="caricon2">
                     <p class="caricontext">5 чол.</p>
                 </div>
 
                 <div class="carcharacteristics3">
-                    <img src="image/main/fuel 1.png" class="caricon3">
+                    <img src="../main/image/fuel 1.png" class="caricon3">
                     <p class="caricontext">Бензин (A95)</p>
                 </div>
 
                 <div class="carcharacteristics4">
-                    <img src="image/main/conditioner 1.png" class="caricon4">
+                    <img src="../main/image/conditioner 1.png" class="caricon4">
                     <p class="caricontext">Кондиціонер</p>
                 </div>
 
                 <div class="carcharacteristics5">
-                    <img src="image/main/transmission 1.png" class="caricon5">
+                    <img src="../main/image/transmission 1.png" class="caricon5">
                     <p class="caricontext5">Механіка</p>
                 </div>
 
                 <div class="carcharacteristics6">
-                    <img src="image/main/fuel consumption 1.png" class="caricon6">
+                    <img src="../main/image/fuel consumption 1.png" class="caricon6">
                     <p class="caricontext6">7.8 л / 100 км</p>
                 </div>
 
@@ -149,37 +149,37 @@ else{
 
 
     <a href=""><div class="car2">
-            <img src="image/main/IMG_1173_new-600x350 1.png" class="carimage">
+            <img src="../main/image/IMG_1173_new-600x350 1.png" class="carimage">
             <p class="carbrand">Ford Focus Auto 2.0</p>
             <div class="carcharacteristics">
 
                 <div class="carcharacteristics1">
-                    <img src="image/main/engine 1.png" class="caricon1">
+                    <img src="../main/image/engine 1.png" class="caricon1">
                     <p class="caricontext">2.0 л</p>
                 </div>
 
                 <div class="carcharacteristics2">
-                    <img src="image/main/passenger 1.png" class="caricon2">
+                    <img src="../main/image/passenger 1.png" class="caricon2">
                     <p class="caricontext">5 чол.</p>
                 </div>
 
                 <div class="carcharacteristics3">
-                    <img src="image/main/fuel 1.png" class="caricon3">
+                    <img src="../main/image/fuel 1.png" class="caricon3">
                     <p class="caricontext">Бензин (A95)</p>
                 </div>
 
                 <div class="carcharacteristics4">
-                    <img src="image/main/conditioner 1.png" class="caricon4">
+                    <img src="../main/image/conditioner 1.png" class="caricon4">
                     <p class="caricontext">Кондиціонер</p>
                 </div>
 
                 <div class="carcharacteristics5">
-                    <img src="image/main/transmission 1.png" class="caricon5">
+                    <img src="../main/image/transmission 1.png" class="caricon5">
                     <p class="caricontext5">Авто</p>
                 </div>
 
                 <div class="carcharacteristics6">
-                    <img src="image/main/fuel consumption 1.png" class="caricon6">
+                    <img src="../main/image/fuel consumption 1.png" class="caricon6">
                     <p class="caricontext6">7.7 л / 100 км</p>
                 </div>
 
@@ -190,37 +190,37 @@ else{
 
 
     <a href=""><div class="car3">
-            <img src="image/main/DSC_0560-600x350 1.png" class="carimage">
+            <img src="../main/image/DSC_0560-600x350 1.png" class="carimage">
             <p class="carbrand">Toyota Camry XSE 3.5</p>
             <div class="carcharacteristics">
 
                 <div class="carcharacteristics1">
-                    <img src="image/main/engine 1.png" class="caricon1">
+                    <img src="../main/image/engine 1.png" class="caricon1">
                     <p class="caricontext">3.5 л</p>
                 </div>
 
                 <div class="carcharacteristics2">
-                    <img src="image/main/passenger 1.png" class="caricon2">
+                    <img src="../main/image/passenger 1.png" class="caricon2">
                     <p class="caricontext">5 чол.</p>
                 </div>
 
                 <div class="carcharacteristics3">
-                    <img src="image/main/fuel 1.png" class="caricon3">
+                    <img src="../main/image/fuel 1.png" class="caricon3">
                     <p class="caricontext">Бензин (A95)</p>
                 </div>
 
                 <div class="carcharacteristics4">
-                    <img src="image/main/conditioner 1.png" class="caricon4">
+                    <img src="../main/image/conditioner 1.png" class="caricon4">
                     <p class="caricontext">Кондиціонер</p>
                 </div>
 
                 <div class="carcharacteristics5">
-                    <img src="image/main/transmission 1.png" class="caricon5">
+                    <img src="../main/image/transmission 1.png" class="caricon5">
                     <p class="caricontext5">Механіка</p>
                 </div>
 
                 <div class="carcharacteristics6">
-                    <img src="image/main/fuel consumption 1.png" class="caricon6">
+                    <img src="../main/image/fuel consumption 1.png" class="caricon6">
                     <p class="caricontext6">9.1 л / 100 км</p>
                 </div>
 
@@ -231,37 +231,37 @@ else{
 
 
     <a href=""><div class="car4">
-            <img src="image/main/DSC_0643-600x350 1.png" class="carimage">
+            <img src="../main/image/DSC_0643-600x350 1.png" class="carimage">
             <p class="carbrand">Kia Sportage</p>
             <div class="carcharacteristics">
 
                 <div class="carcharacteristics1">
-                    <img src="image/main/engine 1.png" class="caricon1">
+                    <img src="../main/image/engine 1.png" class="caricon1">
                     <p class="caricontext">1.6 л</p>
                 </div>
 
                 <div class="carcharacteristics2">
-                    <img src="image/main/passenger 1.png" class="caricon2">
+                    <img src="../main/image/passenger 1.png" class="caricon2">
                     <p class="caricontext">5 чол.</p>
                 </div>
 
                 <div class="carcharacteristics3">
-                    <img src="image/main/fuel 1.png" class="caricon3">
+                    <img src="../main/image/fuel 1.png" class="caricon3">
                     <p class="caricontext">Бензин (A95)</p>
                 </div>
 
                 <div class="carcharacteristics4">
-                    <img src="image/main/conditioner 1.png" class="caricon4">
+                    <img src="../main/image/conditioner 1.png" class="caricon4">
                     <p class="caricontext">Кондиціонер</p>
                 </div>
 
                 <div class="carcharacteristics5">
-                    <img src="image/main/transmission 1.png" class="caricon5">
+                    <img src="../main/image/transmission 1.png" class="caricon5">
                     <p class="caricontext5">Механіка</p>
                 </div>
 
                 <div class="carcharacteristics6">
-                    <img src="image/main/fuel consumption 1.png" class="caricon6">
+                    <img src="../main/image/fuel consumption 1.png" class="caricon6">
                     <p class="caricontext6">7.8 л / 100 км</p>
                 </div>
 
@@ -272,37 +272,37 @@ else{
 
 
     <a href=""><div class="car5">
-            <img src="image/main/DSC_0431-600x350 1.png" class="carimage">
+            <img src="../main/image/DSC_0431-600x350 1.png" class="carimage">
             <p class="carbrand">Skoda Fabia 1.2 Manual</p>
             <div class="carcharacteristics">
 
                 <div class="carcharacteristics1">
-                    <img src="image/main/engine 1.png" class="caricon1">
+                    <img src="../main/image/engine 1.png" class="caricon1">
                     <p class="caricontext">1.2 л</p>
                 </div>
 
                 <div class="carcharacteristics2">
-                    <img src="image/main/passenger 1.png" class="caricon2">
+                    <img src="../main/image/passenger 1.png" class="caricon2">
                     <p class="caricontext">5 чол.</p>
                 </div>
 
                 <div class="carcharacteristics3">
-                    <img src="image/main/fuel 1.png" class="caricon3">
+                    <img src="../main/image/fuel 1.png" class="caricon3">
                     <p class="caricontext">Бензин (A95)</p>
                 </div>
 
                 <div class="carcharacteristics4">
-                    <img src="image/main/conditioner 1.png" class="caricon4">
+                    <img src="../main/image/conditioner 1.png" class="caricon4">
                     <p class="caricontext">Кондиціонер</p>
                 </div>
 
                 <div class="carcharacteristics5">
-                    <img src="image/main/transmission 1.png" class="caricon5">
+                    <img src="../main/image/transmission 1.png" class="caricon5">
                     <p class="caricontext5">Механіка</p>
                 </div>
 
                 <div class="carcharacteristics6">
-                    <img src="image/main/fuel consumption 1.png" class="caricon6">
+                    <img src="../main/image/fuel consumption 1.png" class="caricon6">
                     <p class="caricontext6">4.8 л / 100 км</p>
                 </div>
 
@@ -313,37 +313,37 @@ else{
 
 
     <a href=""><div class="car6">
-            <img src="image/main/DSC_0010-600x350 1.png" class="carimage">
+            <img src="../main/image/DSC_0010-600x350 1.png" class="carimage">
             <p class="carbrand">Audi A5 2.0 TFSI Quattro</p>
             <div class="carcharacteristics">
 
                 <div class="carcharacteristics1">
-                    <img src="image/main/engine 1.png" class="caricon1">
+                    <img src="../main/image/engine 1.png" class="caricon1">
                     <p class="caricontext">2.0 л</p>
                 </div>
 
                 <div class="carcharacteristics2">
-                    <img src="image/main/passenger 1.png" class="caricon2">
+                    <img src="../main/image/passenger 1.png" class="caricon2">
                     <p class="caricontext">5 чол.</p>
                 </div>
 
                 <div class="carcharacteristics3">
-                    <img src="image/main/fuel 1.png" class="caricon3">
+                    <img src="../main/image/fuel 1.png" class="caricon3">
                     <p class="caricontext">Бензин (A95)</p>
                 </div>
 
                 <div class="carcharacteristics4">
-                    <img src="image/main/conditioner 1.png" class="caricon4">
+                    <img src="../main/image/conditioner 1.png" class="caricon4">
                     <p class="caricontext">Кондиціонер</p>
                 </div>
 
                 <div class="carcharacteristics5">
-                    <img src="image/main/transmission 1.png" class="caricon5">
+                    <img src="../main/image/transmission 1.png" class="caricon5">
                     <p class="caricontext5">Авто</p>
                 </div>
 
                 <div class="carcharacteristics6">
-                    <img src="image/main/fuel consumption 1.png" class="caricon6">
+                    <img src="../main/image/fuel consumption 1.png" class="caricon6">
                     <p class="caricontext6">8.0 л / 100 км</p>
                 </div>
 
@@ -354,37 +354,37 @@ else{
 
 
     <a href=""><div class="car7">
-            <img src="image/main/DSC_0426-600x350 1.png" class="carimage">
+            <img src="../main/image/DSC_0426-600x350 1.png" class="carimage">
             <p class="carbrand">Hyundai H1 2.5 diesel</p>
             <div class="carcharacteristics">
 
                 <div class="carcharacteristics1">
-                    <img src="image/main/engine 1.png" class="caricon1">
+                    <img src="../main/image/engine 1.png" class="caricon1">
                     <p class="caricontext">2.5 л</p>
                 </div>
 
                 <div class="carcharacteristics2">
-                    <img src="image/main/passenger 1.png" class="caricon2">
+                    <img src="../main/image/passenger 1.png" class="caricon2">
                     <p class="caricontext">7+1 чол.</p>
                 </div>
 
                 <div class="carcharacteristics3">
-                    <img src="image/main/fuel 1.png" class="caricon3">
+                    <img src="../main/image/fuel 1.png" class="caricon3">
                     <p class="caricontext">Дизель</p>
                 </div>
 
                 <div class="carcharacteristics4">
-                    <img src="image/main/conditioner 1.png" class="caricon4">
+                    <img src="../main/image/conditioner 1.png" class="caricon4">
                     <p class="caricontext">Кондиціонер</p>
                 </div>
 
                 <div class="carcharacteristics5">
-                    <img src="image/main/transmission 1.png" class="caricon5">
+                    <img src="../main/image/transmission 1.png" class="caricon5">
                     <p class="caricontext5">Авто</p>
                 </div>
 
                 <div class="carcharacteristics6">
-                    <img src="image/main/fuel consumption 1.png" class="caricon6">
+                    <img src="../main/image/fuel consumption 1.png" class="caricon6">
                     <p class="caricontext6">8.8 л / 100 км</p>
                 </div>
 
@@ -395,37 +395,37 @@ else{
 
 
     <a href="https://www.youtube.com/results?search_query=jquery+%D1%87%D1%82%D0%BE+%D1%8D%D1%82%D0%BE"><div class="car8">
-            <img src="image/main/DSC_0951-600x350 1.png" class="carimage">
+            <img src="../main/image/DSC_0951-600x350 1.png" class="carimage">
             <p class="carbrand">Peugeot 2008 1.2</p>
             <div class="carcharacteristics">
 
                 <div class="carcharacteristics1">
-                    <img src="image/main/engine 1.png" class="caricon1">
+                    <img src="../main/image/engine 1.png" class="caricon1">
                     <p class="caricontext">1.2 л</p>
                 </div>
 
                 <div class="carcharacteristics2">
-                    <img src="image/main/passenger 1.png" class="caricon2">
+                    <img src="../main/image/passenger 1.png" class="caricon2">
                     <p class="caricontext">5 чол.</p>
                 </div>
 
                 <div class="carcharacteristics3">
-                    <img src="image/main/fuel 1.png" class="caricon3">
+                    <img src="../main/image/fuel 1.png" class="caricon3">
                     <p class="caricontext">Бензин (A95)</p>
                 </div>
 
                 <div class="carcharacteristics4">
-                    <img src="image/main/conditioner 1.png" class="caricon4">
+                    <img src="../main/image/conditioner 1.png" class="caricon4">
                     <p class="caricontext">Кондиціонер</p>
                 </div>
 
                 <div class="carcharacteristics5">
-                    <img src="image/main/transmission 1.png" class="caricon5">
+                    <img src="../main/image/transmission 1.png" class="caricon5">
                     <p class="caricontext5">Авто</p>
                 </div>
 
                 <div class="carcharacteristics6">
-                    <img src="image/main/fuel consumption 1.png" class="caricon6">
+                    <img src="../main/image/fuel consumption 1.png" class="caricon6">
                     <p class="caricontext6">5.0 л / 100 км</p>
                 </div>
 
@@ -457,23 +457,23 @@ else{
             <div class="conditionsmaket">
 
                 <div class="conditionsmaket1">
-                    <img src="image/main/129052 1.png" class="conditionsmaket1icon">
+                    <img src="../main/image/129052 1.png" class="conditionsmaket1icon">
                 </div>
 
                 <div class="conditionsmaket2">
-                    <img src="image/main/driver-license-card 1.png" class="conditionsmaket2icon">
+                    <img src="../main/image/driver-license-card 1.png" class="conditionsmaket2icon">
                 </div>
 
                 <div class="conditionsmaket3">
-                    <img src="image/main/illustration-of-give-money-icon-on-transparent-background-free-png 1.png" class="conditionsmaket3icon">
+                    <img src="../main/image/illustration-of-give-money-icon-on-transparent-background-free-png 1.png" class="conditionsmaket3icon">
                 </div>
 
                 <div class="conditionsmaket4">
-                    <img src="image/main/3596097 1.png" class="conditionsmaket4icon">
+                    <img src="../main/image/3596097 1.png" class="conditionsmaket4icon">
                 </div>
 
                 <div class="conditionsmaket5">
-                    <img src="image/main/1200px-Icon-round-Question_mark 1.png" class="conditionsmaket5icon">
+                    <img src="../main/image/1200px-Icon-round-Question_mark 1.png" class="conditionsmaket5icon">
                 </div>
             </div>
         </div>
@@ -504,7 +504,7 @@ else{
 
                 <div class="overmileagemaket">
                     <div class="overmileagemaketellipse">
-                        <img src="image/main/speedometer-icon 1.png" class="overmileagemaketellipseicon">
+                        <img src="../main/image/speedometer-icon 1.png" class="overmileagemaketellipseicon">
                     </div>
 
                     <p class="overmileagemakettext1">Ліміт пробігу 350 км/доба</p>
@@ -523,7 +523,7 @@ else{
                 Наша компанія молода, тому працює в цьому сегменті ринку лиш рік. Оформити заявку та взяти напрокат авто в м. Чернівці можна, зателефонувавши до нашого офісу або заповнивши форму при оренді авто. Не втрачайте унікальний шанс недорого зняти машину потрібного вам класу з водієм або без нього!
             </p>
             <div class="aboutusmaket">
-                <img src="image/main/Снимок экрана 2023-05-11 192954 1.png" class="aboutusmap">
+                <img src="../main/image/Снимок экрана 2023-05-11 192954 1.png" class="aboutusmap">
             </div>
 
             <p class="aboutustext2">Чим ми відрізняємося від інших?</p>
@@ -552,9 +552,9 @@ else{
 </main>
 
 <footer class="footer">
-    <a href="https://www.facebook.com/"><img src="image/main/facebook-logo-50 (1).png" class="footerfacebookicon"></a>
-    <a href="https://www.instagram.com/"><img src="image/main/instagram-logo-50 (1).png" class="footerinstagramicon"></a>
-    <a href="https://twitter.com"><img src="image/main/twitter-logo-50 (1).png" class="footertwittericon"></a>
+    <a href="https://www.facebook.com/"><img src="../main/image/facebook-logo-50 (1).png" class="footerfacebookicon"></a>
+    <a href="https://www.instagram.com/"><img src="../main/image/instagram-logo-50 (1).png" class="footerinstagramicon"></a>
+    <a href="https://twitter.com"><img src="../main/image/twitter-logo-50 (1).png" class="footertwittericon"></a>
 </footer>
 
 

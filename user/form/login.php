@@ -5,36 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Jost" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    
 
     <title>Авторизація</title>
 </head>
 <body>
 
-<div class="container">
-<div class="row">
-<div class="col-md-6 mt-5 m-auto bg-white shadow font-monospace border border-info">
+<div class="wrapper">
 
-<p class="text-warning text-center fs-3 fw-bold my-3"> User Login</p>
+<header class="header">
+<a href="../../Main/Main.php"><img src="../image/home-solid-240 1.png" class="home_icon"></a> 
+</header>
+    
+
+<main class="container">
+<div class="row">
+<div class="form_login">
+
+<img src="../image/Logo.png" class="icon">
+<p class="login_title">Авторизація</p>
 
 <form action="login1.php" method="POST">
 
-<div class="mb-3">
-<label for="">UserName:</label>
-<input type="text" name="name" placeholder="Enter User Name" class="form-control">
+<div class="username_and_email_block">
+<p class="UaEaPB_name">Ім'я користувача/email:</p>
+<input type="text" name="name" required oninvalid="this.setCustomValidity('Заповніть це поле')" placeholder="Введіть ім'я користувача або email" class="UaEaPB_button">
 </div>
 
-<div class="mb-3">
-<label for="">UserPassword:</label>
-<input type="password" name="password" placeholder="Enter User Password" class="form-control">
+<div class="password_block">
+<p class="UaEaPB_name">Пароль:</p>
+<input type="password" name="password" required oninvalid="this.setCustomValidity('Заповніть це поле')" placeholder="Введіть пароль" class="UaEaPB_button">
 </div>
 
-<div class="mb-3">
-<button class="w-100 bg-danger fs-4 text-warning">Login</button>
+<div class="login_block">
+<button class="login_button">Авторизація</button>
 </div>
 
-<div class="mb-3">
-<button name="submit" class="w-100 bg-warning fs-4 text-white"><a href="registration.php" class="text-decoration-none text-white">Registration</button></a>
+<div class="registration_block">
+<p class="registration_text1">Ще не зареєстровані?</p>
+<a href="registration.php" class="registration_text2">Зареєструйтесь</button></a>
 </div>
 
 </form>
@@ -42,7 +52,16 @@
 
 </div>
 </div>
+</main>
+
+<footer class="footer">
+<a href="https://www.facebook.com/"><img src="../image/facebook-logo-50 (1).png" class="footerfacebookicon"></a>
+    <a href="https://www.instagram.com/"><img src="../image/instagram-logo-50 (1).png" class="footerinstagramicon"></a>
+    <a href="https://twitter.com"><img src="../image/twitter-logo-50 (1).png" class="footertwittericon"></a>
+</footer>
+
 </div>
+
     
 <?php
 
