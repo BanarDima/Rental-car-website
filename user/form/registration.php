@@ -5,50 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Jost" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="registration.css">
+    
     <title>Реєстрація</title>
 </head>
 <body>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-6 mt-5 m-auto bg-white shadow font-monospace border border-info">
-            <p class="text-warning text-center fs-3 fw-bold my-3">User Register</p>
-            <form method="POST" action="insert.php">
-                <div class="mb-3">
-                    <label for="name">Ім'я користувача:</label>
-                    <input type="text" name="name" id="name" placeholder="Введіть ім'я користувача" class="form-control">
+    <div class="wrapper">
+
+        <header class="header">
+            <a href="../../Main/Main.php"><img src="../image/home-solid-240 1.png" class="home_icon"></a> 
+        </header>
+
+        <main class="container">
+            <div class="row">
+                <div class="form_registration">
+                    <img src="../image/Logo.png" class="icon">
+                    <p class="registration_title">Реєстрація</p>
+                        <form method="POST" action="insert.php">
+                
+                            <div class="username_block">
+                                <p class="UaEaPaNaB_name">Ім'я користувача*</p>
+                                <input type="text" name="name" id="name" placeholder="Від 3 до 16 символів" class="UaEaPaNaB_button">
+                            </div>
+                
+                            <div class="email_block">
+                                <p class="UaEaPaNaB_name">Email*:</p>
+                                <input type="email" name="email" placeholder="example@gmail.com" class="UaEaPaNaB_button">
+                            </div>
+                
+                            <div class="number_block">
+                                <p class="UaEaPaNaB_name">Телефонний номер:</p>
+                                <input type="text" name="number" placeholder="0********* (10 цифр)" class="UaEaPaNaB_button">
+                            </div>
+                
+                            <div class="password_block">
+                                <p class="UaEaPaNaB_name">Пароль:</p>
+                                <input type="password" name="password" placeholder="від 8 до 16 символів " class="UaEaPaNaB_button">
+                            </div>
+                
+                            <div class="registration_block">
+                                <button class="registration_button">Реєстрація</button>
+                            </div>
+                
+                            <div class="login_block">
+                                <p class="login_text1">Зареєстровані?</p>
+                                <a href="login.php" class="login_text2">Авторизуйтесь</button></a>
+                            </div>
+                        </form>
                 </div>
-                <div class="mb-3">
-                    <label for="email">Електронна пошта:</label>
-                    <input type="email" name="email" placeholder="Введіть свою електронну пошту" class="form-control">
-                </div>
-                <div class="mb-3">
-                    <label for="number">Телефонний номер:</label>
-                    <input type="text" name="number" placeholder="Введіть свій номер телефону" class="form-control">
-                </div>
-                <div class="mb-3">
-                    <label for="password">Пароль:</label>
-                    <input type="password" name="password" placeholder="Введіть пароль" class="form-control">
-                </div>
-                <div class="mb-3">
-                    <button type="submit" name="submit" class="w-100 bg-warning fs-4 text-white">Register</button>
-                </div>
-                <div class="mb-3">
-                    <button class="w-100 bg-danger fs-4 text-warning"><a href="login.php" class="text-decoration-none text-white">Already have an account</a></button>
-                </div>
-            </form>
-        </div>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <a href="https://www.facebook.com/"><img src="../image/facebook-logo-50 (1).png" class="footerfacebookicon"></a>
+            <a href="https://www.instagram.com/"><img src="../image/instagram-logo-50 (1).png" class="footerinstagramicon"></a>
+            <a href="https://twitter.com"><img src="../image/twitter-logo-50 (1).png" class="footertwittericon"></a>
+        </footer>
+
+
     </div>
-</div>
 
     
-<?php
+    <?php
 
 
 
-?>
+    ?>
 
 
 </body>

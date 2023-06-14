@@ -12,6 +12,12 @@
 
 <?php
 session_start();
+$Name = $_SESSION['user'];
+$Con = mysqli_connect('localhost','root','','ecommerce');
+$rows = mysqli_query($Con ,"SELECT * FROM `tbluser` WHERE (BINARY UserName = '$Name' OR BINARY Email = '$Name') ");
+$stroka = mysqli_fetch_array($rows, MYSQLI_ASSOC);
+$username = $stroka['UserName'];
+
 
 ?>
 
@@ -33,23 +39,26 @@ session_start();
         <a href="#aboutus" class="prbutton">Про нас</a>
 
         <?php
-if (isset($_SESSION['user'])) {
-    echo $_SESSION['user'];
-    echo '<div class="signinbutton">
-    <a href="../user/form/logout.php" class="signout">Вийти</a>
-    </div>';
+                if (isset($_SESSION['user'])) {
+                    $_SESSION['user']=$username;
+            ?>    
+                    <div style="position: absolute; width: 300px; left: 930px; top: 37px; text-decoration: none; font-family: 'Jost'; font-style: normal; font-weight: 400; font-size: 24px; line-height: 35px; text-align: right; color: black;"><?= $_SESSION['user'];?></div>
+            <?php
+                echo '<div class="signinbutton">
+                <a href="../user/form/logout.php" class="signout">Вийти</a>
+                </div>';
  
-}
-else{
-    echo '<div class="signupbutton">
-    <a href="../user/form/registration.php" class="signup">Реєстрація</a>
-    </div>';
-    echo '<div class="signinbutton">
-    <a href="../user/form/login.php" class="signin">Авторизація</a>
-    </div>';
+            }
+            else{
+                echo '<div class="signupbutton">
+                <a href="../user/form/registration.php" class="signup">Реєстрація</a>
+                </div>';
+                echo '<div class="signinbutton">
+                <a href="../user/form/login.php" class="signin">Авторизація</a>
+                </div>';
 
-}
-?>
+            }
+        ?>
 
 
 
@@ -107,7 +116,7 @@ else{
             <img src="../main/image/down-arrow-circle-solid-60.png" class="autorectanglebluearrow">
         </div>
 
-        <a href=""><div class="car1">
+        <a href="../park/1. Renault_Logan/Renault_Logan.php"><div class="car1">
             <img src="../main/image//DSC_0283-825x510 1.png" class="carimage">
             <p class="carbrand">Renault Logan 1.0 - 1.2 МКПП</p>
             <div class="carcharacteristics">

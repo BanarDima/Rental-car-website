@@ -203,6 +203,10 @@ html {
     color: #FFFFFF;
 }
 
+.spanclass{
+    color:green;
+ } 
+
 .header {
     position: absolute;
     width: 80%;
