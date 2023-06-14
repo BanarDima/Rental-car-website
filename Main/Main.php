@@ -12,12 +12,16 @@
 
 <?php
 session_start();
+if (isset($_SESSION['user'])) {
 $Name = $_SESSION['user'];
 $Con = mysqli_connect('localhost','root','','ecommerce');
 $rows = mysqli_query($Con ,"SELECT * FROM `tbluser` WHERE (BINARY UserName = '$Name' OR BINARY Email = '$Name') ");
 $stroka = mysqli_fetch_array($rows, MYSQLI_ASSOC);
 $username = $stroka['UserName'];
+}
+else {
 
+}
 
 ?>
 
