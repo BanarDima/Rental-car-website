@@ -10,20 +10,16 @@
 </head>
 <body>
 
-<?php
-session_start();
-if (isset($_SESSION['user'])) {
-$Name = $_SESSION['user'];
-$Con = mysqli_connect('localhost','root','','ecommerce');
-$rows = mysqli_query($Con ,"SELECT * FROM `tbluser` WHERE (BINARY UserName = '$Name' OR BINARY Email = '$Name') ");
-$stroka = mysqli_fetch_array($rows, MYSQLI_ASSOC);
-$username = $stroka['UserName'];
-}
-else {
-
-}
-
-?>
+    <?php
+    session_start();
+    if (isset($_SESSION['user'])) {
+    $Name = $_SESSION['user'];
+    $Con = mysqli_connect('localhost','root','','ecommerce');
+    $rows = mysqli_query($Con ,"SELECT * FROM `tbluser` WHERE (BINARY UserName = '$Name' OR BINARY Email = '$Name') ");
+    $stroka = mysqli_fetch_array($rows, MYSQLI_ASSOC);
+    $username = $stroka['UserName'];
+    }
+    ?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.1/jquery.min.js"></script>
 
@@ -48,18 +44,18 @@ else {
             ?>    
                     <div style="position: absolute; width: 300px; left: 930px; top: 37px; text-decoration: none; font-family: 'Jost'; font-style: normal; font-weight: 400; font-size: 24px; line-height: 35px; text-align: right; color: black;"><?= $_SESSION['user'];?></div>
             <?php
-                echo '<div class="signinbutton">
-                <a href="../user/form/logout.php" class="signout">Вийти</a>
-                </div>';
+                echo '<a href="../user/form/logout.php"<div class="signinbutton">
+                <p class="signout">Вийти</p>
+                </div></a>';
  
             }
             else{
-                echo '<div class="signupbutton">
-                <a href="../user/form/registration.php" class="signup">Реєстрація</a>
-                </div>';
-                echo '<div class="signinbutton">
-                <a href="../user/form/login.php" class="signin">Авторизація</a>
-                </div>';
+                echo '<a href="../user/form/registration.php"><div class="signupbutton">
+                <p class="signup">Реєстрація</p>
+                </div></a>';
+                echo '<a href="../user/form/login.php"<div class="signinbutton">
+                <p class="signin">Авторизація</p>
+                </div></a>';
 
             }
         ?>
