@@ -117,7 +117,7 @@
         </div>
 
         <a href="../park/1. Renault_Logan/Renault_Logan.php"><div class="car1">
-            <img src="../main/image//DSC_0283-825x510 1.png" class="carimage">
+            <img src="../main/image/DSC_0283-825x510 1.png" class="carimage">
             <p class="carbrand">Renault Logan 1.0 - 1.2 МКПП</p>
             <div class="carcharacteristics">
 
@@ -157,7 +157,7 @@
     </a>
 
 
-    <a href=""><div class="car2">
+    <a href="../park/2. Ford_Focus/Ford_Focus.php"><div class="car2">
             <img src="../main/image/IMG_1173_new-600x350 1.png" class="carimage">
             <p class="carbrand">Ford Focus Auto 2.0</p>
             <div class="carcharacteristics">
@@ -198,7 +198,7 @@
     </a>
 
 
-    <a href=""><div class="car3">
+    <a href="../park/3. Toyota_Camry_XSE/Toyota_Camry_XSE.php"><div class="car3">
             <img src="../main/image/DSC_0560-600x350 1.png" class="carimage">
             <p class="carbrand">Toyota Camry XSE 3.5</p>
             <div class="carcharacteristics">
@@ -239,7 +239,7 @@
     </a>
 
 
-    <a href=""><div class="car4">
+    <a href="../park/4. Kia_Sportage/Kia_Sportage.php"><div class="car4">
             <img src="../main/image/DSC_0643-600x350 1.png" class="carimage">
             <p class="carbrand">Kia Sportage</p>
             <div class="carcharacteristics">

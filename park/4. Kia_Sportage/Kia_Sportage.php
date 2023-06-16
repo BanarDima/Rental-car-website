@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Jost" rel="stylesheet">
     <link rel="stylesheet" href="../Cars.css">
-    <title>Renault Logan</title>
+    <title>Kia Sportage</title>
 </head>
 <body>
 
@@ -65,7 +65,7 @@
         <main class="container">
             <div class="cc">
                 <div class="carfoto">
-                    <p class="carname">Прокат Renault Logan 1.0 - 1.2 МКПП</p>
+                    <p class="carname">Прокат Kia Sportage</p>
 
                     <!--image slider start-->
                     <div class="slider">
@@ -78,16 +78,16 @@
                             <!--radio buttons end-->
                             <!--slide images start-->
                             <div class="slide first">
-                                <img src="image/DSC_0283-825x510.jpg" alt="">
+                                <img src="image/DSC_0643-825x510 (1).jpg" alt="">
                                 </div>
                             <div class="slide">
-                                <img src="image/DSC_0289.jpg" alt="">
+                                <img src="image/DSC_0649 (2).jpg" alt="">
                             </div>
                             <div class="slide">
-                                <img src="image/DSC_0291.jpg" alt="">
+                                <img src="image/DSC_0651 (1).jpg" alt="">
                             </div>
                             <div class="slide">
-                                <img src="image//DSC_0304.jpg" alt="">
+                                <img src="image/DSC_0670 (1).jpg" alt="">
                             </div>
                             <!--slide images end-->
                             <!--automatic navigation start-->
@@ -177,22 +177,22 @@
 
                     <div class="characteristics_block_one">
                         <p class="characteristics_block_question">Бренд</p>
-                        <p class="characteristics_block_answer">Renault</p>
+                        <p class="characteristics_block_answer">Kia</p>
                     </div>
 
                     <div class="characteristics_block_two">
                         <p class="characteristics_block_question">Тип кузова</p>
-                        <p class="characteristics_block_answer">Седан</p>
+                        <p class="characteristics_block_answer">Позашляховик</p>
                     </div>
 
                     <div class="characteristics_block_three">
                         <p class="characteristics_block_question">Об’єм двигуна</p>
-                        <p class="characteristics_block_answer">1.2 л</p>
+                        <p class="characteristics_block_answer">1.6 л</p>
                     </div>
 
                     <div class="characteristics_block_four">
                         <p class="characteristics_block_question">Тип КПП</p>
-                        <p class="characteristics_block_answer">Механіка</p>
+                        <p class="characteristics_block_answer">Авто</p>
                     </div>
 
                     <div class="characteristics_block_five">
@@ -214,11 +214,11 @@
                         </div>
 
                         <div class="characteristics_text_block2">
-                        <p class="characteristics_text_block2_1">Поєднання економного об’єму двигуна й непоганих потужностей дають приємну динаміку руху серед міського трафіку, що допоможе швидко впоратися з поставленими завданнями. А оптимальний кліренс дозволяє зробити приємними і поїздки за містом. Місткий багажник (один із найбільших у цьому класі) стане кращим помічником і візьме на себе весь тягар вашої поїздки. Машина обладнана надійною механічною коробкою передач для тих, хто надає перевагу повному керуванню автомобілем.</p>
+                        <p class="characteristics_text_block2_1">Нова версія KIA Sportage створена для активних водіїв, які живуть подорожами і пошуком нових вражень. Цей стильний і просторий автомобіль здивує вас не тільки дизайном, але й розширеним набором функцій управління та безпеки: до них відносяться, наприклад, системи допомоги водієві при підйомі і спуску по схилу. У своєму класі Спортейдж був визнаний одним із найнадійніших авто.</p>
                         </div>
 
                         <div class="characteristics_text_block3">
-                        <p class="characteristics_text_block3_1">Двигун – 1,2 л (73 к.с.)<br>Витрата палива – 7.8 л / 100 км.<br>Обсяг паливного бака – 50 л.<br>Привід автомобіля – передній.<br>Обсяг багажника – 510 л.</p>
+                        <p class="characteristics_text_block3_1">Двигун – 1.6 л (132 к.с.)<br>Витрата палива – 8.0 л / 100 км.<br>Обсяг паливного бака – 62 л.<br>Привід автомобіля – передній.<br>Обсяг багажника – 466 л.</p>
 
                         </div>
                     
@@ -233,17 +233,22 @@
 
                     <div class="configuration_one">
                         <div class="configuration_ellipse"></div>
-                        <p class="configuration_text">Кондиціонер</p>
+                        <p class="configuration_text">Гідропідсилювач керма</p>
                     </div>
 
                     <div class="configuration_two">
                         <div class="configuration_ellipse"></div>
-                        <p class="configuration_text">Гідропідсилювач</p>
+                        <p class="configuration_text">Мультимедіа</p>
                     </div>
 
                     <div class="configuration_three">
                         <div class="configuration_ellipse"></div>
-                        <p class="configuration_text">МКПП</p>
+                        <p class="configuration_text">Клімат контроль</p>
+                    </div>
+
+                    <div class="configuration_four">
+                        <div class="configuration_ellipse"></div>
+                        <p class="configuration_text">Мультикермо</p>
                     </div>
 
                 </div>

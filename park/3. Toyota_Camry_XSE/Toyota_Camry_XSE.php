@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Jost" rel="stylesheet">
     <link rel="stylesheet" href="../Cars.css">
-    <title>Renault Logan</title>
+    <title>Toyota Camry XSE</title>
 </head>
 <body>
 
@@ -65,7 +65,7 @@
         <main class="container">
             <div class="cc">
                 <div class="carfoto">
-                    <p class="carname">Прокат Renault Logan 1.0 - 1.2 МКПП</p>
+                    <p class="carname">Прокат Toyota Camry XSE 3.5</p>
 
                     <!--image slider start-->
                     <div class="slider">
@@ -78,16 +78,16 @@
                             <!--radio buttons end-->
                             <!--slide images start-->
                             <div class="slide first">
-                                <img src="image/DSC_0283-825x510.jpg" alt="">
+                                <img src="image/DSC_0560 (1).jpg" alt="">
                                 </div>
                             <div class="slide">
-                                <img src="image/DSC_0289.jpg" alt="">
+                                <img src="image/DSC_0554 (1).jpg" alt="">
                             </div>
                             <div class="slide">
-                                <img src="image/DSC_0291.jpg" alt="">
+                                <img src="image/DSC_0548 (1).jpg" alt="">
                             </div>
                             <div class="slide">
-                                <img src="image//DSC_0304.jpg" alt="">
+                                <img src="image/DSC_0596 (1).jpg" alt="">
                             </div>
                             <!--slide images end-->
                             <!--automatic navigation start-->
@@ -177,7 +177,7 @@
 
                     <div class="characteristics_block_one">
                         <p class="characteristics_block_question">Бренд</p>
-                        <p class="characteristics_block_answer">Renault</p>
+                        <p class="characteristics_block_answer">Toyota</p>
                     </div>
 
                     <div class="characteristics_block_two">
@@ -187,12 +187,12 @@
 
                     <div class="characteristics_block_three">
                         <p class="characteristics_block_question">Об’єм двигуна</p>
-                        <p class="characteristics_block_answer">1.2 л</p>
+                        <p class="characteristics_block_answer">3.5 л</p>
                     </div>
 
                     <div class="characteristics_block_four">
                         <p class="characteristics_block_question">Тип КПП</p>
-                        <p class="characteristics_block_answer">Механіка</p>
+                        <p class="characteristics_block_answer">Авто</p>
                     </div>
 
                     <div class="characteristics_block_five">
@@ -208,17 +208,18 @@
                     <div class="characteristics_text_block">
 
                         <div class="characteristics_text_block1">
-                            <p class="characteristics_text_block1_1">Середня витрата палива: 7.8 л / 100км</p>
-                            <p class="characteristics_text_block1_2">Вартість шляху в 100 км: 396 грн *</p>
+                            <p class="characteristics_text_block1_1">Середня витрата палива: 9.1 л / 100км</p>
+                            <p class="characteristics_text_block1_2">Вартість шляху в 100 км: 464 грн *</p>
                             <p class="characteristics_text_block1_3"><span class="colortext">*</span> Розраховано на основі середн. вартості A95 на заправках в Чернівцях станом на 06.05.23</p>
                         </div>
 
                         <div class="characteristics_text_block2">
-                        <p class="characteristics_text_block2_1">Поєднання економного об’єму двигуна й непоганих потужностей дають приємну динаміку руху серед міського трафіку, що допоможе швидко впоратися з поставленими завданнями. А оптимальний кліренс дозволяє зробити приємними і поїздки за містом. Місткий багажник (один із найбільших у цьому класі) стане кращим помічником і візьме на себе весь тягар вашої поїздки. Машина обладнана надійною механічною коробкою передач для тих, хто надає перевагу повному керуванню автомобілем.</p>
+                        <p class="characteristics_text_block2_1">Оновлена ​​Тойота Камрі – хіт прокату серед автомобілів бізнес-класу! Автомобіль отримав новий дизайн з цікавими рішеннями, які змусять закохатися кожного. Широка радіаторна решітка й зухвала передня оптика створюють враження найбільш агресивного представника класу.
+                                                                 Ця машина – практично ідеальний компаньйон для ділової людини. Зустріти гостей в аеропорту, з’їздити у відрядження або відвідати кілька заходів у різних частинах міста – всі ці завдання будуть вирішені з максимальним комфортом.</p>
                         </div>
 
                         <div class="characteristics_text_block3">
-                        <p class="characteristics_text_block3_1">Двигун – 1,2 л (73 к.с.)<br>Витрата палива – 7.8 л / 100 км.<br>Обсяг паливного бака – 50 л.<br>Привід автомобіля – передній.<br>Обсяг багажника – 510 л.</p>
+                        <p class="characteristics_text_block3_1">Двигун – 3.5 л (301 к.с.)<br>Витрата палива – 9.5 л / 100 км.<br>Обсяг паливного бака – 60 л.<br>Привід автомобіля – передній.<br>Обсяг багажника – 493 л.</p>
 
                         </div>
                     
@@ -233,17 +234,27 @@
 
                     <div class="configuration_one">
                         <div class="configuration_ellipse"></div>
-                        <p class="configuration_text">Кондиціонер</p>
+                        <p class="configuration_text">Підсилювач керма</p>
                     </div>
 
                     <div class="configuration_two">
                         <div class="configuration_ellipse"></div>
-                        <p class="configuration_text">Гідропідсилювач</p>
+                        <p class="configuration_text">Кондиціонер</p>
                     </div>
 
                     <div class="configuration_three">
                         <div class="configuration_ellipse"></div>
-                        <p class="configuration_text">МКПП</p>
+                        <p class="configuration_text">Клімат контроль</p>
+                    </div>
+
+                    <div class="configuration_four">
+                        <div class="configuration_ellipse"></div>
+                        <p class="configuration_text">Адаптивний круїз контроль</p>
+                    </div>
+
+                    <div class="configuration_five">
+                        <div class="configuration_ellipse"></div>
+                        <p class="configuration_text">Датчик світла</p>
                     </div>
 
                 </div>

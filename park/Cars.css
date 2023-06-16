@@ -772,7 +772,7 @@ html {
 
 .characteristics_text_block3_1 {
   position: absolute;
-  width: 260px;
+  width: 270px;
   height: 130px;
   left: 15px;
   top: 0px;
@@ -851,7 +851,7 @@ html {
 
 .configuration_text {
   position: absolute;
-  width: 106px;
+  width: 220px;
   height: 26px;
   left: 30px;
   top: 0px;
@@ -881,6 +881,22 @@ html {
   height: 26px;
   left: 20px;
   top: 150px;
+}
+
+.configuration_four {
+  position: absolute;
+  width: 200px;
+  height: 26px;
+  left: 20px;
+  top: 180px;
+}
+
+.configuration_five {
+  position: absolute;
+  width: 200px;
+  height: 26px;
+  left: 20px;
+  top: 210px;
 }
 
 .footer {
